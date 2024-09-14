@@ -1,0 +1,129 @@
+{
+    "John Doe": {
+        "vitals": {
+            "Heart Rate": 72,
+            "Blood Pressure": "120/80",
+            "Temperature": "98.6\u00b0F"
+        },
+        "medications": [
+            "Aspirin",
+            "Lisinopril"
+        ],
+        "diagnoses": [
+            "Hypertension",
+            "Type 2 Diabetes"
+        ],
+        "notes": [
+            {
+                "date": "2023-05-01",
+                "title": "Initial Consultation",
+                "content": "Patient presented with complaints of frequent urination and increased thirst. Blood tests reveal elevated glucose levels. Diagnosed with Type 2 Diabetes. Prescribed Metformin and advised on dietary changes."
+            },
+            {
+                "date": "2023-06-15",
+                "title": "Follow-up",
+                "content": "Patient's condition has improved. Blood glucose levels are stabilizing. Continuing current treatment plan. Encouraged patient to maintain diet and exercise regimen."
+            },
+            {
+                "date": "2023-05-01",
+                "title": "Initial Consultation - Summary",
+                "content": "Key points:\n\n\u2022 Symptoms: Frequent urination, increased thirst\n\u2022 Blood tests: Elevated glucose levels\n\u2022 Diagnosis: Type 2 Diabetes\n\u2022 Treatment: Metformin prescribed\n\u2022 Recommendations: Dietary changes advised"
+            }
+        ],
+        "glucose_readings": [
+            {
+                "date": "2023-05-01",
+                "glucose": 180
+            },
+            {
+                "date": "2023-05-15",
+                "glucose": 160
+            },
+            {
+                "date": "2023-06-01",
+                "glucose": 140
+            },
+            {
+                "date": "2023-06-15",
+                "glucose": 130
+            },
+            {
+                "date": "2024-09-14",
+                "glucose": 100
+            }
+        ]
+    },
+    "Jane Smith": {
+        "vitals": {
+            "Heart Rate": 68,
+            "Blood Pressure": "118/75",
+            "Temperature": "98.2\u00b0F"
+        },
+        "medications": [
+            "Levothyroxine",
+            "Vitamin D"
+        ],
+        "diagnoses": [
+            "Hypothyroidism",
+            "Vitamin D Deficiency"
+        ],
+        "notes": [
+            {
+                "date": "2023-04-10",
+                "title": "Initial Consultation",
+                "content": "Patient reported fatigue and weight gain. Blood tests showed low thyroid hormone levels. Diagnosed with hypothyroidism. Prescribed Levothyroxine and ordered follow-up tests."
+            },
+            {
+                "date": "2023-05-25",
+                "title": "Follow-up",
+                "content": "Patient feeling more energetic. Thyroid levels improving but still below normal range. Adjusted Levothyroxine dosage. Also noted low Vitamin D levels and prescribed supplements."
+            }
+        ],
+        "thyroid_readings": [
+            {
+                "date": "2023-04-10",
+                "tsh": 8.5
+            },
+            {
+                "date": "2023-04-25",
+                "tsh": 6.2
+            },
+            {
+                "date": "2023-05-10",
+                "tsh": 4.8
+            },
+            {
+                "date": "2023-05-25",
+                "tsh": 3.5
+            }
+        ]
+    },
+    "Bob Jones": {
+        "vitals": {
+            "Heart Rate": 0,
+            "Blood Pressure": "",
+            "Temperature": ""
+        },
+        "medications": [],
+        "diagnoses": [],
+        "notes": [],
+        "glucose_readings": [
+            {
+                "date": "2023-05-01",
+                "glucose": 128
+            },
+            {
+                "date": "2023-05-16",
+                "glucose": 143
+            },
+            {
+                "date": "2023-05-31",
+                "glucose": 177
+            },
+            {
+                "date": "2023-06-15",
+                "glucose": 145
+            }
+        ]
+    }
+}
