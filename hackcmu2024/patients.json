@@ -1,0 +1,14 @@
+{
+    "Bob": {
+        "vitals": {
+            "Heart Rate": 0,
+            "Blood Pressure": "",
+            "Temperature": ""
+        },
+        "medications": [],
+        "diagnoses": [],
+        "notes": [],
+        "glucose_readings": [],
+        "thyroid_readings": []
+    }
+}
