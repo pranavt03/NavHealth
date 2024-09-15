@@ -34,7 +34,7 @@ def save_patient_data(data):
 patients = load_patient_data()
 
 # Set up AssemblyAI API key
-aai.settings.api_key = "773691fe44574433a4bef0cafbdabcee"
+aai.settings.api_key = ""
 transcriber = aai.Transcriber()
 
 def record_audio(duration=1, sample_rate=44100):
@@ -52,7 +52,7 @@ def toClaude(text):
     response = anthropic.messages.create(
         model="claude-3-5-sonnet-20240620",
         max_tokens=500,
-        system="You are a medical coder with expertise in ICD-10-CM coding.",
+        system="You are a doctor that can effectively extract the key points from notes.",
         messages=[
             {"role": "user", "content": f"Do not provide any remarks or comments. Simply provide a key points summary of this text: {text}"}
         ]
