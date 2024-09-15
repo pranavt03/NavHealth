@@ -54,7 +54,7 @@ def toClaude(text):
     response = anthropic.messages.create(
         model="claude-3-5-sonnet-20240620",
         max_tokens=500,
-        system="You are a medical coder with expertise in ICD-10-CM coding.",
+        system="You are a doctor that can effectively extract the key points from notes.",
         messages=[
             {"role": "user", "content": f"Do not provide any remarks or comments. Simply provide a key points summary of this text: {text}"}
         ]
