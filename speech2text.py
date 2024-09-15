@@ -16,7 +16,7 @@ import random
 DATA_FILE = "patients.json"
 
 # Anthropic API key and setup
-ANTHROPIC_API_KEY = "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"
+ANTHROPIC_API_KEY = ""
 anthropic = Anthropic(api_key=ANTHROPIC_API_KEY)
 
 # Function to load patient data
